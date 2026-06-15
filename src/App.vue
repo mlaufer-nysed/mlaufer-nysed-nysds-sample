@@ -19,21 +19,12 @@ const announcePresence = () => {
         suffixIcon="chevron_right"
         @click="announcePresence()"
       />
-      <p>This Requests:</p>
-      <ul>
-        <li>http://localhost:5173/node_modules/.vite/deps/icons/chevron_left.svg</li>
-        <li>http://localhost:5173/node_modules/.vite/deps/icons/chevron_right.svg</li>
-      </ul>
     </div>
     <br />
     <nys-divider />
     <div class="red_background">
       <p>I'm a div with an Icon</p>
-      <nys-icon name="upload_file" />
-      <p>This requests:</p>
-      <ul>
-        <li>http://localhost:5173/node_modules/.vite/deps/icons/upload_file.svg</li>
-      </ul>
+      <nys-icon name="upload_file" size="5xl" />
     </div>
   </div>
 </template>

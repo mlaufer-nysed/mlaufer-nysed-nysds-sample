@@ -13,8 +13,8 @@
     "format": "prettier --write --experimental-cli src/"
   },
   "dependencies": {
-    "@nysds/components": "^1.19.0",
-    "@nysds/styles": "^1.19.0",
+    "@nysds/components": "^1.15.0",
+    "@nysds/styles": "^1.15.0",
     "vue": "^3.5.32",
     "vue-router": "^5.0.4"
   },
