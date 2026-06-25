@@ -8,7 +8,7 @@ import '@nysds/components'
 import { registerIconLibrary } from '@nysds/components'
 
 registerIconLibrary('default', {
-  resolver: (name) => `/assets/icons/${name}.svg`,
+  resolver: (name) => `/mlaufer-nysed-nysds-sample/assets/icons/${name}.svg`,
 })
 
 const app = createApp(App)
