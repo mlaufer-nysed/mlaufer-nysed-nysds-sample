@@ -7,6 +7,7 @@ import { viteStaticCopy } from 'vite-plugin-static-copy'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/mlaufer-nysed-nysds-sample/',
   plugins: [
     viteStaticCopy({
       targets: [
